@@ -1,0 +1,1 @@
+./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Ant-v0 --num_envs 32
