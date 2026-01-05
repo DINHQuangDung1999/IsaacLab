@@ -1,1 +1,7 @@
-./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Ant-v0 --num_envs 32
+# ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Velocity-Flat-Vision-Unitree-Go2-Direct-v0 --num_envs 32 --enable_cameras --headless
+# ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Velocity-Flat-Anymal-C-Direct-v0 --num_envs 1024 --headless
+# ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Velocity-Flat-Anymal-C-Direct-v0 --num_envs 1 --checkpoint /home/dung-admin/ws/IsaacLab/logs/rl_games/anymal_c_flat_direct/2025-12-15_10-27-07/nn/anymal_c_flat_direct.pth
+# ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task Isaac-Velocity-Flat-Unitree-Go2-Direct-v0 --num_envs 1024 --headless
+./isaaclab.sh -p scripts/reinforcement_learning/rl_games/play.py --task Isaac-Velocity-Flat-Unitree-Go2-Direct-v0 --num_envs 1 --checkpoint /home/dung-admin/ws/IsaacLab/logs/rl_games/unitree_go2_flat_direct/2025-12-16_12-49-38/nn/unitree_go2_flat_direct.pth
+# ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play.py --task Isaac-Velocity-Flat-Unitree-Go2-v0 --num_envs 1 --checkpoint /home/dung-admin/ws/IsaacLab/logs/rsl_rl/unitree_go2_flat/2025-12-15_09-13-18/model_900.pt
+# ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task Isaac-Velocity-Flat-Unitree-Go2-v0 --num_envs 1024 --headless
